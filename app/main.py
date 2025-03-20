@@ -38,7 +38,7 @@ app.add_middleware(
 
 @app.get("/")
 async def root():
-  return {"message": "Welcome to my api"}
+  return {"message": "Welcome to my api, checking something"}
 
 # @app.get("/sqlalchemy")
 # def test_posts(db: Session = Depends(get_db)):
